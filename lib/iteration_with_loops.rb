@@ -16,7 +16,6 @@ def find_min_in_nested_arrays(src)
     end
   outer_results << smallest_value
   row_index += 1 
-  end 
+end 
 outer_results
-end
 end
