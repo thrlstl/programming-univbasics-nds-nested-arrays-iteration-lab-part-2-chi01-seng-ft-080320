@@ -13,10 +13,10 @@ def find_min_in_nested_arrays(src)
         smallest_value = src[row_index][element_index]
       end
         element_index += 1 
-end
+    end
   outer_results << smallest_value
   row_index += 1 
-end 
+  end 
 outer_results
 end
 end
